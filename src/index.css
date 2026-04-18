@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', monospace;
+  background: radial-gradient(circle at center, #1a0f0b 0%, #0d0704 100%);
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
