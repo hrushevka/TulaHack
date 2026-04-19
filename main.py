@@ -12,8 +12,8 @@ class Order(SQLModel, table=True):
     type_item: str
     count: int
     is_ready: bool = False
-    ready_count: int = Field(default=0) # сколько есть
-    input_ready: int = Field(default=0) #матерриала
+    ready_count: int = Field(default=0)
+    input_ready: int = Field(default=0)
     current_hour: int = 0 
 
 sqlite_url = "sqlite:///factory.db"

@@ -1,18 +1,10 @@
-# Заводской Симулятор - Прогресс разработки
+# TODO: Make stations smaller and properly placed for visibility on all screens
 
-**Завершено:**
-- [x] Запуск dev server (`npm run dev`)
-- [x] Панель материалов (серый лист, острые углы)
-- [x] Полные названия материалов
-- [x] Цветовая индикация рабочих (белый/зелёный/оранжевый/красный)
-- [x] 6 станков с цепочкой производства
-
-**В работе:**
-- [ ] Исправление логики материалов (материалы текущего хода не используются в том же ходу)
-
-**Следующие шаги:**
-1. Отредактировать `nextTurn()` в App.jsx
-2. Тестирование баланса (15 ходов на 10 авто)
-3. UI для плана (gantt-chart)
-4. Звуки/анимации станков
+## Plan Steps:
+- [x] 1. Create TODO.md with steps
+- [x] 2. Edit src/App.css: Shrink station images, compact grid/gaps/padding, update badges/status/turn-stat sizes
+- [x] 3. Update responsive media queries for better fit on mobile/desktop/large screens
+- [ ] 4. Test layout: Run `npm run dev`, check responsiveness across screen sizes
+- [ ] 5. Verify all 6 stations visible without overflow
+- [ ] 6. Mark complete and attempt_completion
 
