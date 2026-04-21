@@ -76,7 +76,7 @@ const [workersAvailable, setWorkersAvailable] = useState(NUM_WORKERS)
       setTimeout(() => setTurnPulse(false), 2000)
       return
     }
-    if (simulationStep + 1 >= NUM_TURNS) {
+    if (simulationStep + 1 > NUM_TURNS) {
       finishSimulation()
       return
     }
